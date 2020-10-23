@@ -1,0 +1,19 @@
+.app{
+  display: grid;
+  place-items: center;
+  /* background-color: #dadbd3; */
+  background-color:#1c1c1c;
+  height:100vh;
+}
+.app__body{
+  display: flex;
+  /* background-color: #ededed; */
+  background-color: hsl(0, 2%, 17%);
+  margin-top: -50px;
+  width: 90vw;
+  height: 90vh;
+  box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.2);
+}
+.MuiSvgIcon-root{
+  fill: #bfbfbf !important;
+}
